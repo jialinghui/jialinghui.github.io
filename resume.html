@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB前端-贾令辉</title>
+    <style>
+        ::selection {
+            background-color: #ffe150;
+        }
+
+        body{
+            margin: 2em;
+            font-family:
+                system, -apple-system, BlinkMacSystemFont,
+                "PingFang SC", "Segoe UI", "Microsoft YaHei", "wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+                "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #f8f8f5;
+            color: #5c5c5c;
+        }
+        header{line-height: 1.5em;text-align: center;}
+    
+        a{text-decoration: none; color: inherit;}
+
+        a:hover{
+            border-bottom: 1px solid black;
+            color: Black;
+        }
+
+        a:visited {
+            color: #9f9f9f;
+        }
+
+        h1,h2,h3,h4,h5,h6{color: #202124; font-weight: normal;}
+
+        hr{margin: unset; border: none; border-bottom: 1.5px solid #000;}
+
+        section h2{margin-bottom: unset;}
+
+        section h3, section h4, section p{line-height: 2em; margin: 0;}
+
+        section h4{font-weight: normal;}
+
+        section ul{margin-top:0;}
+
+        hgroup > div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            var Age = new Date().getFullYear() - 1997;
+            document.querySelector('#Age').innerText = Age;
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>贾令辉</h1>
+        <a href="tel:15638539153">156-3853-9153</a> | 
+        <a href="mailto:mail@jialinghui.com">mail@jialinghui.com</a> | 
+        <a href="//jialinghui.com">jialinghui.com</a>
+        <br>
+        年龄:<span id="Age">23</span> | 求职意向: WEB前端 | 期望薪资:面议
+    </header>
+    <section>
+        <h2>工作经历</h2>
+        <hr/>
+        <hgroup>
+            <div>
+                <h3>新乡市嘟嘟技术⽹络有限公司</h3>
+                <time>2018年03⽉ - 2020年07⽉</time>
+            </div>
+            <div>
+                <h4>前端开发⼯程师 技术部</h4>
+                <span>郑州</span>
+            </div>
+        </hgroup>
+        <ul>
+            <li>内容：参与开发PC端⽹站改版，开发移动端，小程序，推进前端技术体系建设</li>
+        </ul>
+        <hgroup>
+            <div>
+                <h3>郑州双骏电⼦科技有限公司</h3>
+                <time>2017年10⽉ - 2018年02⽉</time>
+            </div>
+            <div>
+                <h4>前端开发⼯程师 技术部</h4>
+                <span>郑州</span>
+            </div>
+        </hgroup>
+        <ul>
+            <li>内容:维护⽹站前端⽇常修改，独⽴完成⽹站前端改版</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>项目经历</h2>
+        <hr/>
+        <hgroup>
+            <div>
+                <h3>币闪购（小程序）</h3>
+                <time>2020年05⽉ - 2020年06⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>描述:交易平台小程序快速购买游戏币</li>
+            <li>技术栈: uni-app、小程序、Vue、Websocket</li>
+            <li>负责:
+                <ul>
+                    <li>弹出框组件，⻚头⻚脚等</li>
+                    <li>⽹络请求库封装及token验证</li>
+                    <li>订单相关及聊天服务</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>嘟嘟组号</h3>
+                <time>2019年11⽉ - 2020年02⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>描述:账号租赁平台</li>
+            <li>技术栈: Vue、Nginx、Axios、Websocket</li>
+            <li>
+                负责:
+                <ul>
+                    <li>前端项⽬的规划开发和推进</li>
+                    <li>Ajax请求库的封装，和各服务token验证</li>
+                    <li>弹出框、表单、分享、复制等组件</li>
+                    <li>账⼾列表，发布，游戏区服选择搜索、及订单相关</li>
+                </ul>
+            </li>
+            <li>项⽬链接: <a href="//zuhao.dd373.com/m/">zuhao.dd373.com/m/</a></li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>移动端dd373交易平台</h3>
+                <time>2019年07⽉ - 2019年09⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>2019年07⽉ - 2019年09⽉</li>
+            <li>描述: web移动端交易平台</li>
+            <li>技术栈: Gulp、Babel、ES6、Vue、nginx等。</li>
+            <li>
+                负责:
+                <ul>
+                    <li>弹出框组件</li>
+                    <li>订单详情聊天</li>
+                    <li>订单列表</li>
+                    <li>点卡充值</li>
+                </ul>
+            </li>
+            <li>项⽬链接: <a href="//m.dd373.com">m.dd373.com</a> </li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>嘟嘟⽹络游戏交易平台（改版）</h3>
+                <time>2019年07⽉ - 2019年09⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>2019年07⽉ - 2019年09⽉</li>
+            <li>描述: 描述:对已有⽼交易平台的改版更新换代。</li>
+            <li>技术栈: : Gulp、Babel、ES6、Sass、jQuery、Promise、nginx等。</li>
+            <li>负责:
+                <ul>
+                    <li>⻚头游戏区服选择器</li>
+                    <li>⽹站⾃定义配置菜单</li>
+                    <li>购物⻋，订单列表，批量发布等</li>
+                    <li>订单详情及订单聊天服务包括客服和⽤⼾两个端聊天服务</li>
+                </ul>
+            </li>
+            <li>项⽬链接: <a href="//www.dd373.com">www.dd373.com</a> </li>
+        </ul>
+        
+        <hgroup>
+            <div>
+                <h3>嘟嘟饰品交易卖家助⼿</h3>
+                <time>2019年03⽉ - 2019年05⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>描述: Steam饰品交易卖家发货客⼾端</li>
+            <li>技术栈: CEF(Chromium嵌入式框架)、ES6、ES7</li>
+            <li>独⽴负责整个客⼾端前端功能开发</li>
+        </ul>
+        
+        <hgroup>
+            <div>
+                <h3>DD373电竞饰品交易平台</h3>
+                <time>2018年04⽉ - 2019年04⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>描述:该项⽬为Steam交易平台，可以绑定Steam账⼾，发布购买游戏饰品。</li>
+            <li>项⽬前后端分离，使⽤Gulp为⾃动化构建⼯具，⽤nginx做前端代理转发请求API。</li>
+            <li>
+                负责
+                <ul>
+                    <li>开发商品详情，背包，购物⻋等⻚⾯；</li>
+                    <li>设计开发表单模块包括验证、提交等功能；</li>
+                    <li>分享组件，分享到QQ、微信等平台。</li>
+                </ul>
+            </li>
+            <li>项⽬链接: <a href="//steam.dd373.com">steam.dd373.com</a></li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>在线咨询客服系统</h3>
+                <time>2018年06⽉ - 2018年08⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>描述:⽤⼾咨询客服聊天系统。聊天服务使⽤webSocket框架signalR</li>
+            <li>聊天服务使⽤webSocket框架signalR。</li>
+            <li>
+                负责:
+                <ul>
+                    <li>发送，接收消息、表情</li>
+                    <li>复制粘贴发送图⽚</li>
+                    <li>消息智能提⽰，消息提醒、已读等</li>
+                </ul>
+            </li>
+            <li>项⽬链接: <a href="//www.dd373.com">www.dd373.com</a></li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>退伍军⼈⽹</h3>
+                <time>2017年10⽉ - 2018年02⽉</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>描述：这是⼀个帮助退役军⼈，创业就业的⽹站</li>
+            <li>负责：和UI、后台沟通合作，独⽴开发登录注册，表单，详情等所有⻚⾯。开发期间⽤到了jQuery、Bootstrap、Vue、Less。</li>
+            <li>项⽬收获：了解到开发⼀个完整的web项⽬到上线的的流程；会基本的linux操作配置开发环境。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>教育经历</h2>
+        <hr/>
+        <hgroup>
+            <div>
+                <h3>河南⼯业贸易职业学院</h3>
+                <time>2015年09⽉ - 2017年07⽉</time>
+            </div>
+            <div>
+                <h4>计算机应⽤技术 ⼤专</h4>
+                <span>郑州</span>
+            </div>
+        </hgroup>
+    </section>
+
+    <section>
+        <h2>附加技能</h2>
+        <hr/>
+        <p>
+            异步编程; 抓包⼯具 fiddler,charles; DevTools调试; Google,StackOverflow解疑;
+        </p>
+    </section>
+</body>
+</html>
