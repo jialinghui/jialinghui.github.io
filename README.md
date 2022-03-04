@@ -1,2 +1,2 @@
 # jialinghui.github.io
-## [Resume](/resume.html)
+## [Resume](//jialinghui.github.io/resume.html)
