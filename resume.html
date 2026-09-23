@@ -53,32 +53,43 @@
             flex-wrap: wrap;
         }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded",function(){
-            var Age = new Date().getFullYear() - 1997;
-            document.querySelector('#Age').innerText = Age;
-        });
-    </script>
 </head>
 <body>
     <header>
         <h1>贾令辉</h1>
-        <a href="tel:15302608952">153-0260-8952</a> | 
+        <a href="tel:15302608952">153-0260-8952</a> |
         <a href="mailto:mail@jialinghui.com">mail@jialinghui.com</a> | 
         <a href="//jialinghui.com">jialinghui.com</a>
         <br>
-        年龄:<span id="Age">24</span> | 求职意向: Web前端 | 期望薪资:面议
+        求职意向：Electron / Web前端开发 | 期望薪资：面议
     </header>
     <section>
         <h2>工作经历</h2>
         <hr/>
         <hgroup>
             <div>
-                <h3>即时匹配（上海）网络科技有限公司</h3>
-                <time>2021年04⽉ - 2025年08月</time>
+                <h3>上海凯瑞游信息技术有限公司</h3>
+                <time>2025年11月 - 2026年09月</time>
             </div>
             <div>
-                <h4>WEB前端开发⼯程师 - 技术部</h4>
+                <h4>Electron开发工程师 - 技术部</h4>
+                <span>上海</span>
+            </div>
+        </hgroup>
+        <ul>
+            <li>独立负责基于 Electron、Vue 3 和 TypeScript 的跨平台语音社交桌面客户端“咪呐部落”开发，完成语音房、实时连麦、房间互动、私信消息及礼物特效等核心功能。</li>
+            <li>独立设计并实现语音房 RTC 与房间生命周期链路，完善进房、切房、退房、上麦、静音及远端流管理，协调 RTC、融云 IM、房间状态和特效资源的初始化与清理。</li>
+            <li>负责 Electron Main、Preload、Renderer 三进程架构下的业务开发，采用 tRPC 与 Zod 处理跨进程通信，并封装网络请求、本地 SQLCipher 数据库、图片处理及系统能力。</li>
+            <li>设计并维护礼物、座驾等特效资源下载与播放链路，支持断点续传、优先级调度、失败重试和异常恢复，实现加密资源的本地按需解密播放，提升特效展示的稳定性。</li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>即时匹配（上海）网络科技有限公司</h3>
+                <time>2021年04月 - 2025年08月</time>
+            </div>
+            <div>
+                <h4>WEB前端开发工程师 - 技术部</h4>
                 <span>上海</span>
             </div>
         </hgroup>
@@ -91,42 +102,44 @@
         <hgroup>
             <div>
                 <h3>上海梦根信息技术有限公司</h3>
-                <time>2020年08⽉ - 2020年11⽉</time>
+                <time>2020年08月 - 2020年11月</time>
             </div>
             <div>
-                <h4>WEB前端开发⼯程师 - 技术部</h4>
+                <h4>WEB前端开发工程师 - 技术部</h4>
                 <span>上海</span>
             </div>
         </hgroup>
         <ul>
-            <li>内容：独立主导开发Web前端项目。</li>
+            <li>独立负责面向海外用户的 Rummy 类纸牌游戏平台 Web 前端开发，覆盖 PC 端和移动端页面。</li>
+            <li>使用 Vue 2、Vue Router、Vuex、Axios、Sass 等技术，完成游戏大厅、现金游戏、充值提现、KYC、个人中心、消息和帮助中心等核心模块。</li>
+            <li>负责前端项目架构、公共组件和接口请求模块设计，完成多端适配、接口联调、构建发布及线上问题处理。</li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>新乡市嘟嘟⽹络技术有限公司</h3>
-                <time>2018年03⽉ - 2020年07⽉</time>
+                <h3>新乡市嘟嘟网络技术有限公司</h3>
+                <time>2018年03月 - 2020年07月</time>
             </div>
             <div>
-                <h4>WEB前端开发⼯程师 - 技术部</h4>
+                <h4>WEB前端开发工程师 - 技术部</h4>
                 <span>郑州</span>
             </div>
         </hgroup>
         <ul>
-            <li>内容：参与开发PC端⽹站改版，开发移动端，小程序，推进前端技术体系建设。</li>
+            <li>内容：参与开发PC端网站改版，开发移动端，小程序，推进前端技术体系建设。</li>
         </ul>
         <hgroup>
             <div>
-                <h3>郑州双骏电⼦科技有限公司</h3>
-                <time>2017年10⽉ - 2018年02⽉</time>
+                <h3>郑州双骏电子科技有限公司</h3>
+                <time>2017年10月 - 2018年02月</time>
             </div>
             <div>
-                <h4>前端开发⼯程师 - 技术部</h4>
+                <h4>前端开发工程师 - 技术部</h4>
                 <span>郑州</span>
             </div>
         </hgroup>
         <ul>
-            <li>内容:维护⽹站前端⽇常修改，独⽴完成⽹站前端改版。</li>
+            <li>内容：维护网站前端日常修改，独立完成网站前端改版。</li>
         </ul>
     </section>
 
@@ -135,14 +148,27 @@
         <hr/>
         <hgroup>
             <div>
-                <h3>WebRTC实时通信SDK</h3>
-                <time>2024年011月-至今</time>
+                <h3>咪呐部落 - 语音社交桌面客户端</h3>
+                <time>2025年11月 - 2026年09月</time>
             </div>
         </hgroup>
         <ul>
-            <li>技术栈: JavaScript | TypeScript | Protobuf | Vite</li>
-            <li>我独立开发了一个基于 WebRTC 技术的 JavaScript/TypeScript 客户端, 该客户端支持浏览器之间的实时音视频通信，满足了低延迟和高质量的通信需求。</li>
-            <li>信令服务器：设计并实现信令服务器，负责在客户端之间交换信令数据，建立和管理WebRTC连接。</li>
+            <li>项目描述：面向语音社交场景的跨平台桌面客户端，支持语音房、实时连麦、房间互动、私信、礼物及装扮特效等功能。</li>
+            <li>技术栈：Electron、Vue 3、TypeScript、Pinia、Zego RTC、融云 IM、tRPC、SQLCipher。</li>
+            <li>独立完成项目架构设计与核心功能开发，负责 Electron 主进程、预加载层和渲染进程之间的能力分层与通信。</li>
+            <li>实现语音房 RTC、房间生命周期、消息中心、特效资源下载及加密资源播放等核心功能，并针对切房、退房和登出场景完善资源清理流程。</li>
+        </ul>
+
+        <hgroup>
+            <div>
+                <h3>WebRTC 实时通信 SDK</h3>
+                <time>2024年01月 - 2025年08月</time>
+            </div>
+        </hgroup>
+        <ul>
+            <li>技术栈：JavaScript、TypeScript、Protobuf、Vite</li>
+            <li>我独立开发了一个基于 WebRTC 技术的 JavaScript/TypeScript 客户端，该客户端支持浏览器之间的实时音视频通信，满足低延迟和高质量的通信需求。</li>
+            <li>信令服务器：设计并实现信令服务器，负责在客户端之间交换信令数据，建立和管理 WebRTC 连接。</li>
             <li>音视频推流：支持从客户端采集音视频流并推送到服务器或其他客户端。</li>
             <li>音视频拉流：从服务器或其他客户端拉取音视频流进行播放。</li>
             <li>订阅管理：管理订阅的音视频流，实现多路流的接收和播放。</li>
@@ -151,13 +177,13 @@
 
         <hgroup>
             <div>
-                <h3>JSPP-聊天交友软件 HarmonyOS版</h3>
-                <time>2024年07月-至今</time>
+                <h3>JSPP 聊天交友软件 HarmonyOS 版</h3>
+                <time>2024年07月 - 2025年08月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述：HarmonyOS平台的 IM即时通讯客户端。</li>
-            <li>技术栈: HarmonyOS NEXT | ArkTS | ArkUI | SQLite | DevEco Studio</li>
+            <li>项目描述：HarmonyOS 平台的 IM 即时通讯客户端。</li>
+            <li>技术栈：HarmonyOS NEXT、ArkTS、ArkUI、SQLite、DevEco Studio</li>
             <li>即时通讯架构设计</li>
             <li>基于Stage模型构建应用架构</li>
             <li>集成Socket 实现加密通信协议框架</li>
@@ -167,20 +193,20 @@
         
         <hgroup>
             <div>
-                <h3>JSPP-聊天交友软件</h3>
-                <time>2021年04⽉ - 至今</time>
+                <h3>JSPP 聊天交友软件</h3>
+                <time>2021年04月 - 2025年08月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述：基于Electron的跨平台IM桌面客户端，支持Windows、Mac、Linux。</li>
-            <li>技术栈：Electron、Socket、Protobuf、SQLite、Sequelize、Umzug、V8字节码加密。</li>
+            <li>项目描述：基于 Electron 的跨平台 IM 桌面客户端，支持 Windows、macOS、Linux。</li>
+            <li>技术栈：Electron、Socket、Protobuf、SQLite、Sequelize、Umzug、V8 字节码加密。</li>
             <li>
                 职责：
                 <ul>
                     <li>设计并实现加密通讯协议，解决Socket通信中的拆包、粘包问题。</li>
                     <li>实现文件切片上传、断点续传、音视频通话、消息历史记录查询等功能。</li>
-                    <li>使用SQLCipher加密数据库，通过Umzug管理数据库迁移。</li>
-                    <li>使用electron-builder打包应用，集成electron-updater实现自动更新。</li>
+                    <li>使用 SQLCipher 加密数据库，通过 Umzug 管理数据库迁移。</li>
+                    <li>使用 electron-builder 打包应用，集成 electron-updater 实现自动更新。</li>
                 </ul>
             </li>
 
@@ -189,34 +215,29 @@
         <hgroup>
             <div>
                 <h3>BBkingrummy</h3>
-                <time>2020年08⽉ - 2020年11⽉</time>
+                <time>2020年08月 - 2020年11月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: Rummy类纸牌游戏,发行于海外。</li>
-            <li>技术栈: Vue、Vuex、PWA、Webpack、Node.js、Nginx。</li>
-            <li>负责:
-                <ul>
-                    <li>主导前端项目设计开发</li>
-                    <li>优化前端性能</li>
-                    <li>部署发布项目</li>
-                </ul>
-            </li>
+            <li>项目描述：面向海外用户的 Rummy 类纸牌游戏平台，提供游戏大厅、现金游戏、充值提现、KYC、个人中心、消息和帮助中心等功能。</li>
+            <li>技术栈：Vue 2、Vue Router、Vuex、Axios、Sass、Webpack、PWA、Node.js、Nginx。</li>
+            <li>独立负责 PC 端和移动端 Web 页面开发，完成项目架构、公共组件、接口请求及核心业务模块实现。</li>
+            <li>负责多端适配、接口联调、前端性能优化和构建发布，推动项目从开发到上线。</li>
         </ul>
 
         <hgroup>
             <div>
                 <h3>币闪购（小程序）</h3>
-                <time>2020年05⽉ - 2020年06⽉</time>
+                <time>2020年05月 - 2020年06月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: 交易平台小程序快速购买游戏币。</li>
-            <li>技术栈: uni-app、小程序、Vue、Websocket。</li>
-            <li>负责:
+            <li>项目描述：交易平台小程序，支持快速购买游戏币。</li>
+            <li>技术栈：uni-app、小程序、Vue、WebSocket。</li>
+            <li>负责：
                 <ul>
-                    <li>弹出框组件，⻚头⻚脚等</li>
-                    <li>⽹络请求库封装及token验证</li>
+                    <li>弹出框组件，页头页脚等</li>
+                    <li>网络请求库封装及token验证</li>
                     <li>订单相关及聊天服务</li>
                 </ul>
             </li>
@@ -225,35 +246,35 @@
         <hgroup>
             <div>
                 <h3>嘟嘟组号</h3>
-                <time>2019年11⽉ - 2020年02⽉</time>
+                <time>2019年11月 - 2020年02月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: 账号租赁平台</li>
-            <li>技术栈: Vue、Nginx、Axios、Websocket。</li>
+            <li>项目描述：账号租赁平台。</li>
+            <li>技术栈：Vue、Nginx、Axios、WebSocket。</li>
             <li>
-                负责:
+                负责：
                 <ul>
-                    <li>前端项⽬的规划开发和推进</li>
+                    <li>前端项目的规划开发和推进</li>
                     <li>Ajax请求库的封装，和各服务token验证</li>
                     <li>弹出框、表单、分享、复制等组件</li>
-                    <li>账⼾列表，发布，游戏区服选择搜索、及订单相关</li>
+                    <li>账户列表，发布，游戏区服选择搜索、及订单相关</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//zuhao.dd373.com/m/" rel=”noreferrer” >zuhao.dd373.com/m/</a></li>
+            <li>项目链接：<a href="//zuhao.dd373.com/m/" rel=”noreferrer” >zuhao.dd373.com/m/</a></li>
         </ul>
 
         <hgroup>
             <div>
                 <h3>移动端dd373交易平台</h3>
-                <time>2019年07⽉ - 2019年09⽉</time>
+                <time>2019年07月 - 2019年09月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: WEB移动端交易平台</li>
-            <li>技术栈: Gulp、Babel、ES6、Vue、Nginx等。</li>
+            <li>项目描述：Web 移动端交易平台。</li>
+            <li>技术栈：Gulp、Babel、ES6、Vue、Nginx 等。</li>
             <li>
-                负责:
+                负责：
                 <ul>
                     <li>弹出框组件</li>
                     <li>订单详情聊天</li>
@@ -261,91 +282,90 @@
                     <li>点卡充值</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//m.dd373.com" rel=”noreferrer” >m.dd373.com</a> </li>
+            <li>项目链接：<a href="//m.dd373.com" rel=”noreferrer” >m.dd373.com</a> </li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>嘟嘟⽹络游戏交易平台（改版）</h3>
-                <time>2019年07⽉ - 2019年09⽉</time>
+                <h3>嘟嘟网络游戏交易平台（改版）</h3>
+                <time>2019年07月 - 2019年09月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: 描述:对已有⽼交易平台的改版更新换代。</li>
-            <li>技术栈: : Gulp、Babel、ES6、Sass、jQuery、Promise、Nginx等。</li>
-            <li>负责:
+            <li>项目描述：对已有老交易平台进行改版升级。</li>
+            <li>技术栈：Gulp、Babel、ES6、Sass、jQuery、Promise、Nginx 等。</li>
+            <li>负责：
                 <ul>
-                    <li>⻚头游戏区服选择器</li>
-                    <li>⽹站⾃定义配置菜单</li>
-                    <li>购物⻋，订单列表，批量发布等</li>
-                    <li>订单详情及订单聊天服务包括客服和⽤⼾两个端聊天服务</li>
+                    <li>页头游戏区服选择器</li>
+                    <li>网站自定义配置菜单</li>
+                    <li>购物车，订单列表，批量发布等</li>
+                    <li>订单详情及订单聊天服务包括客服和用户两个端聊天服务</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//www.dd373.com" rel=”noreferrer” >www.dd373.com</a> </li>
+            <li>项目链接：<a href="//www.dd373.com" rel=”noreferrer” >www.dd373.com</a> </li>
         </ul>
         
         <hgroup>
             <div>
-                <h3>嘟嘟饰品交易卖家助⼿</h3>
-                <time>2019年03⽉ - 2019年05⽉</time>
+                <h3>嘟嘟饰品交易卖家助手</h3>
+                <time>2019年03月 - 2019年05月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: Steam饰品交易卖家发货客⼾端</li>
-            <li>技术栈: CEF(Chromium嵌入式框架)、ES6、ES7</li>
-            <li>独⽴负责整个客⼾端前端功能开发</li>
+            <li>项目描述：Steam 饰品交易卖家发货客户端。</li>
+            <li>技术栈：CEF（Chromium 嵌入式框架）、ES6、ES7。</li>
+            <li>独立负责整个客户端前端功能开发</li>
         </ul>
         
         <hgroup>
             <div>
                 <h3>DD373电竞饰品交易平台</h3>
-                <time>2018年04⽉ - 2019年04⽉</time>
+                <time>2018年04月 - 2019年04月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: 该项⽬为Steam交易平台，可以绑定Steam账⼾，发布购买游戏饰品。</li>
-            <li>项⽬前后端分离，使⽤Gulp为⾃动化构建⼯具，⽤nginx做前端代理转发请求API。</li>
+            <li>项目描述：Steam 交易平台，支持绑定 Steam 账号及发布、购买游戏饰品。</li>
+            <li>项目前后端分离，使用Gulp为自动化构建工具，用nginx做前端代理转发请求API。</li>
             <li>
                 负责
                 <ul>
-                    <li>开发商品详情，背包，购物⻋等⻚⾯；</li>
+                    <li>开发商品详情，背包，购物车等页面；</li>
                     <li>设计开发表单模块包括验证、提交等功能；</li>
                     <li>分享组件，分享到QQ、微信等平台。</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//steam.dd373.com" rel=”noreferrer”>steam.dd373.com</a></li>
+            <li>项目链接：<a href="//steam.dd373.com" rel=”noreferrer”>steam.dd373.com</a></li>
         </ul>
 
         <hgroup>
             <div>
                 <h3>在线咨询客服系统</h3>
-                <time>2018年06⽉ - 2018年08⽉</time>
+                <time>2018年06月 - 2018年08月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述: ⽤⼾咨询客服聊天系统。聊天服务使⽤webSocket框架signalR</li>
-            <li>聊天服务使⽤webSocket框架signalR。</li>
+            <li>项目描述：用户咨询客服聊天系统，使用 SignalR 实现实时消息通信。</li>
             <li>
-                负责:
+                负责：
                 <ul>
                     <li>发送，接收消息、表情</li>
-                    <li>复制粘贴发送图⽚</li>
-                    <li>消息智能提⽰，消息提醒、已读等</li>
+                    <li>复制粘贴发送图片</li>
+                    <li>消息智能提示，消息提醒、已读等</li>
                 </ul>
             </li>
-            <li>项⽬链接: <a href="//www.dd373.com" rel=”noreferrer”>www.dd373.com</a></li>
+            <li>项目链接：<a href="//www.dd373.com" rel=”noreferrer”>www.dd373.com</a></li>
         </ul>
 
         <hgroup>
             <div>
-                <h3>退伍军⼈⽹</h3>
-                <time>2017年10⽉ - 2018年02⽉</time>
+                <h3>退伍军人网</h3>
+                <time>2017年10月 - 2018年02月</time>
             </div>
         </hgroup>
         <ul>
-            <li>描述：这是⼀个帮助退役军⼈，创业就业的⽹站</li>
-            <li>负责：和UI、后台沟通合作，独⽴开发登录注册，表单，详情等所有⻚⾯。开发期间⽤到了jQuery、Bootstrap、Vue、Less。</li>
-            <li>项⽬收获：了解到开发⼀个完整的web项⽬到上线的的流程；会基本的linux操作配置开发环境。</li>
+            <li>描述：这是一个帮助退役军人，创业就业的网站</li>
+            <li>负责：和UI、后台沟通合作，独立开发登录注册，表单，详情等所有页面。开发期间用到了jQuery、Bootstrap、Vue、Less。</li>
+            <li>项目收获：了解完整 Web 项目从开发到上线的流程，掌握基础 Linux 环境配置。</li>
         </ul>
     </section>
 
@@ -354,18 +374,18 @@
         <hr/>
         <hgroup>
             <div>
-                <h3>河南⼯业贸易职业学院</h3>
-                <time>2015年09⽉ - 2017年07⽉</time>
+                <h3>河南工业贸易职业学院</h3>
+                <time>2015年09月 - 2017年07月</time>
             </div>
             <div>
-                <h4>计算机应⽤技术</h4>
-                <span>⼤专</span>
+                <h4>计算机应用技术</h4>
+                <span>大专</span>
             </div>
         </hgroup>
         <hgroup>
             <div>
                 <h3>华东理工大学</h3>
-                <time>2022年03⽉ - 2025年01⽉</time>
+                <time>2022年03月 - 2025年01月</time>
             </div>
             <div>
                 <h4>计算机科学与技术</h4>
